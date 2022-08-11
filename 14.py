@@ -1,7 +1,7 @@
 import ast
 my_file = open("config.json")
 c = dict(ast.literal_eval(my_file.read()))
-if c["name"] == "sababa":
+if c["name"] == "amatzya":
     print("I love DevOps")
 
 with open("names.txt") as my_file:
