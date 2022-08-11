@@ -4,6 +4,7 @@ def save_name(the_file):
     my_file.write(current_name + "\n")
     my_file.close()
 
+
 def haim(avi)
     print(avi)
 def show_names(the_file):
