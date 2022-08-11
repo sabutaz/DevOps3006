@@ -7,8 +7,6 @@ def save_name(the_file):
 
 def moshe(david):
     print(david)
-
-
 def show_names(the_file):
     my_file = open(the_file, "r")
     for name in my_file.readlines():
